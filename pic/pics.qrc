@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>blue.jpg</file>
+        <file>bluebomb.jpg</file>
+        <file>bluer.jpg</file>
+        <file>bluev.jpg</file>
+        <file>green.jpg</file>
+        <file>greenbomb.jpg</file>
+        <file>greenr.jpg</file>
+        <file>greenv.jpg</file>
+        <file>pushblue.jpg</file>
+        <file>pushbluebomb.jpg</file>
+        <file>pushbluer.jpg</file>
+        <file>pushbluev.jpg</file>
+        <file>pushgreen.jpg</file>
+        <file>pushgreenbomb.jpg</file>
+        <file>pushgreenr.jpg</file>
+        <file>pushgreenv.jpg</file>
+        <file>pushred.jpg</file>
+        <file>pushredbomb.jpg</file>
+        <file>pushredr.jpg</file>
+        <file>pushredv.jpg</file>
+        <file>pushstar.jpg</file>
+        <file>pushyellow.jpg</file>
+        <file>pushyellowbomb.jpg</file>
+        <file>pushyellowr.jpg</file>
+        <file>pushyellowv.jpg</file>
+        <file>red.jpg</file>
+        <file>redbomb.jpg</file>
+        <file>redr.jpg</file>
+        <file>redv.jpg</file>
+        <file>star.jpg</file>
+        <file>yellow.jpg</file>
+        <file>yellowbomb.jpg</file>
+        <file>yellowr.jpg</file>
+        <file>yellowv.jpg</file>
+    </qresource>
+</RCC>
