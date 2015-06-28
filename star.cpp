@@ -219,8 +219,8 @@ int star::condition(blank *b[10][10], blank *clicked)
     int row=clicked->row;
     int col=clicked->column;
     int num=clicked->number;
-    if(num!=0&&num!=5){//排除5個星星和空掉的狀況
-       if(num/10==0){
+    if(/*num!=0&&*/num!=16){//排除5個星星和空掉的狀況
+       if(num/4==0){
             if(row>=2&&row<=7&&((num==b[row-2][col]->number)||(num==b[row-2][col]->number/10))&&((num==b[row-1][col]->number)||(num==b[row-1][col]->number/10))&&((num==b[row+2][col]->number)||(num==b[row+2][col]->number/10))&&((num==b[row+1][col]->number)||(num==b[row+1][col]->number/10))){
            //垂直的正常生成 在邊界數量不夠時不用比較
            return 1;

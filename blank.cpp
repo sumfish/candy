@@ -11,81 +11,81 @@ blank::blank(int R,int C,QWidget *parent):row(R),column(C),QObject(parent)
 
 void blank::setnumber()
 {
-    number=rand()%4+1; //定義圖的數字
+    number=rand()%4; //定義圖的數字
 }
 
 void blank::setbuttonpic()
 {
     switch(number){
-    case 1:
+    case 0:
         button->setIcon(QIcon(QPixmap(":/pic/red.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 2:
+    case 1:
         button->setIcon(QIcon(QPixmap(":/pic/yellow.jpg")));
          button->setIconSize(QSize(40,40));
         break;
-    case 3:
+    case 2:
         button->setIcon(QIcon(QPixmap(":/pic/blue.jpg")));
          button->setIconSize(QSize(40,40));
         break;
-    case 4:
+    case 3:
         button->setIcon(QIcon(QPixmap(":/pic/green.jpg")));
          button->setIconSize(QSize(40,40));
         break;
-    case 11:
+    case 4:
         button->setIcon(QIcon(QPixmap(":/pic/redr.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 21:
+    case 5:
         button->setIcon(QIcon(QPixmap(":/pic/yellowr.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 31:
+    case 6:
         button->setIcon(QIcon(QPixmap(":/pic/bluer.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 41:
+    case 7:
         button->setIcon(QIcon(QPixmap(":/pic/greenr.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 12:
+    case 8:
         button->setIcon(QIcon(QPixmap(":/pic/redv.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 22:
+    case 9:
         button->setIcon(QIcon(QPixmap(":/pic/yellowv.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 32:
+    case 10:
         button->setIcon(QIcon(QPixmap(":/pic/bluev.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 42:
+    case 11:
         button->setIcon(QIcon(QPixmap(":/pic/greenv.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 13:
+    case 12:
         button->setIcon(QIcon(QPixmap(":/pic/redbomb.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 23:
+    case 13:
         button->setIcon(QIcon(QPixmap(":/pic/yellowbomb.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 33:
+    case 14:
         button->setIcon(QIcon(QPixmap(":/pic/bluebomb.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 43:
+    case 15:
         button->setIcon(QIcon(QPixmap(":/pic/greenbomb.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    case 5:
+    case 16:
         button->setIcon(QIcon(QPixmap(":/pic/star.jpg")));
         button->setIconSize(QSize(40,40));
         break;
-    default:
+    case 17:
         button->setIcon(QIcon(QPixmap(" ")));//圖形空掉的狀態
         button->setIconSize(QSize(40,40));
         break;
