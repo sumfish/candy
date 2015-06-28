@@ -132,7 +132,7 @@
      <enum>QFrame::Plain</enum>
     </property>
     <property name="text">
-     <string>20steps&gt;100</string>
+     <string>10steps&gt;500</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -154,6 +154,22 @@
     </property>
     <property name="text">
      <string>goal</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>320</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>

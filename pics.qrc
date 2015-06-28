@@ -34,5 +34,10 @@
         <file>pic/yellowbomb.jpg</file>
         <file>pic/yellowr.jpg</file>
         <file>pic/yellowv.jpg</file>
+        <file>pic/firststar.jpg</file>
+        <file>pic/onestar.jpg</file>
+        <file>pic/threestar.jpg</file>
+        <file>pic/twostar.jpg</file>
+        <file>pic/fail.jpg</file>
     </qresource>
 </RCC>

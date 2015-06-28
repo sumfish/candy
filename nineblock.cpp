@@ -7,10 +7,7 @@ nineblock::nineblock()
 
 }
 
-void nineblock::produce(blank *b[10][10], blank *clicked, int mode)
-{
 
-}
 
 void nineblock::eliminate(blank *b[10][10], blank *clicked)
 {
@@ -44,10 +41,6 @@ void nineblock::eliminate(blank *b[10][10], blank *clicked)
  }
 }
 
-int nineblock::condition(blank *b[10][10], blank *clicked)
-{
-
-}
 
 nineblock::~nineblock()
 {
